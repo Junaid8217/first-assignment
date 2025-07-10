@@ -88,12 +88,15 @@
     background-color: #7D7AD3;
     margin-left: 147px;
     margin-right: 159px;
+    border-radius: 15px;
 }
 .number{
     display: flex;
     gap: 158px;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center;
+    text-align: center; */
+    margin-left: 142px;
+    margin-right: 142px;
 }
 .number-title{
     font-size: 80px;
@@ -105,4 +108,8 @@
     font-weight: bold;
     padding-top: 50px;
 
+}
+.skills-container{
+    display: flex;
+    gap: 10px;
 }
